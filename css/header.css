@@ -16,6 +16,10 @@
   font-size: 18px;
   color: #fff;
 }
+.menu a:hover {
+  color: #9f9; /*悬停时链接文字颜色变化*/
+  text-decoration: underline; /*添加下划线*/
+}
 .menu-left {
   float: left;
 }

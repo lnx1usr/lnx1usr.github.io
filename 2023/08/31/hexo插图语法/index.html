@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   
-  <title>Hello World [ WRITE ]</title>
+  <title>hexo插图语法 [ WRITE ]</title>
   
     <!-- stylesheets list from config.yml -->
     
@@ -64,33 +64,32 @@
 
     </div>
     <div class="container">
-        <h1 class="post-title">Hello World</h1>
+        <h1 class="post-title">hexo插图语法</h1>
 <article class="post markdown-style">
-  <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+  <p>图片引用示例：<br>正确的引用图片方式是使用下列的标签插件：<br><code>&#123;% asset_img example.jpg This is an example image %&#125;</code><br><code>&#123;% asset_img 1.png  This is an example image %&#125;</code><br>通过这种方式，图片将会同时出现在文章和主页以及归档页中。</p>
+<img src="/2023/08/31/hexo%E6%8F%92%E5%9B%BE%E8%AF%AD%E6%B3%95/1.png" class="" width="300" height="300">
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a><br>搞了半天没怎么搞懂，看别人的主题好，但就是安装不上，汗</p>
+<p>1.普通的代码块<br><code>&#123;% codeblock %&#125;
+alert('Hello World!');
+&#123;% endcodeblock %&#125;</code></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(&#x27;Hello World!&#x27;);</span><br></pre></td></tr></table></figure>
+<p>2.反引号代码块另一种形式的代码块，不同的是它使用三个反引号来包裹。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">```代码块是这里```</span><br></pre></td></tr></table></figure>
+<p><code>代码块是这里</code></p>
 
 </article>
 
     <div class="pagenator post-pagenator">
     
     
-        <a class="extend prev post-prev" href="/2023/08/28/%E6%B5%8B%E8%AF%95%E6%96%87%E6%9C%AC/">prev</a>
+        <a class="extend prev post-prev" href="/2023/08/31/hexo-deploy%E6%9F%90%E9%94%99%E8%AF%AF%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/">prev</a>
     
 
     
-    <p>last update time 2023-08-27</p>
+    <p>last update time 2023-09-12</p>
     
+    
+        <a class="extend next post-next" href="/2023/08/28/%E6%B5%8B%E8%AF%95%E6%96%87%E6%9C%AC/">next</a>
     
     </div>
 
