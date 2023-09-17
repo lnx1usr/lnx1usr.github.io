@@ -82,12 +82,16 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-学习hexo" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <article id="post-hexo写文章的简单步骤" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2023/09/17/%E5%AD%A6%E4%B9%A0hexo/" class="article-date">
-  <time class="dt-published" datetime="2023-09-17T14:50:42.893Z" itemprop="datePublished">2023-09-17</time>
+    <a href="/2023/09/17/hexo%E5%86%99%E6%96%87%E7%AB%A0%E7%9A%84%E7%AE%80%E5%8D%95%E6%AD%A5%E9%AA%A4/" class="article-date">
+  <time class="dt-published" datetime="2023-09-17T15:54:36.000Z" itemprop="datePublished">2023-09-17</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0hexo/">学习hexo</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -96,7 +100,7 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/09/17/%E5%AD%A6%E4%B9%A0hexo/">学习hexo写文章</a>
+      <a class="p-name article-title" href="/2023/09/17/hexo%E5%86%99%E6%96%87%E7%AB%A0%E7%9A%84%E7%AE%80%E5%8D%95%E6%AD%A5%E9%AA%A4/">hexo写文章的简单步骤</a>
     </h1>
   
 
@@ -104,32 +108,81 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;新建文章标题&quot;</span></span><br></pre></td></tr></table></figure>
+          <img src="/2023/09/17/hexo%E5%86%99%E6%96%87%E7%AB%A0%E7%9A%84%E7%AE%80%E5%8D%95%E6%AD%A5%E9%AA%A4/80.gif" class="" width="100" height="100">
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server-本地预览"><a href="#Run-server-本地预览" class="headerlink" title="Run server 本地预览"></a>Run server 本地预览</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files生成静态文件"><a href="#Generate-static-files生成静态文件" class="headerlink" title="Generate static files生成静态文件"></a>Generate static files生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites部署上传到github"><a href="#Deploy-to-remote-sites部署上传到github" class="headerlink" title="Deploy to remote sites部署上传到github"></a>Deploy to remote sites部署上传到github</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ cd 本地站点目录</span><br><span class="line">$ hexo new 新建文章</span><br><span class="line">$ hexo gaterate 生成文章文件.md</span><br><span class="line">$ hexo server 本地预览生成的文章样式</span><br><span class="line">$ hexo deploy 部署到远程github</span><br></pre></td></tr></table></figure>
+<p>命令可以用简写，  hexo new &#x3D;&#x3D; hexo n<br>        hexo gaterate &#x3D;&#x3D; hexo g<br>        hexo server &#x3D;&#x3D; hexo s<br>        hexo deploy &#x3D;&#x3D; hexo d</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://lnx1usr.github.io/2023/09/17/%E5%AD%A6%E4%B9%A0hexo/" data-id="clmnlib560006onmmf3ni6ptz" data-title="学习hexo写文章" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://lnx1usr.github.io/2023/09/17/hexo%E5%86%99%E6%96%87%E7%AB%A0%E7%9A%84%E7%AE%80%E5%8D%95%E6%AD%A5%E9%AA%A4/" data-id="clmnnm2sr0003wlmmfnh4gwx0" data-title="hexo写文章的简单步骤" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
-        <a href="/2023/09/17/%E5%AD%A6%E4%B9%A0hexo/#comments" class="article-comment-link">
-          <span class="post-comments-count valine-comment-count fa fa-comment" data-xid="/2023/09/17/%E5%AD%A6%E4%B9%A0hexo/" itemprop="commentCount"></span>
+        <a href="/2023/09/17/hexo%E5%86%99%E6%96%87%E7%AB%A0%E7%9A%84%E7%AE%80%E5%8D%95%E6%AD%A5%E9%AA%A4/#comments" class="article-comment-link">
+          <span class="post-comments-count valine-comment-count fa fa-comment" data-xid="/2023/09/17/hexo%E5%86%99%E6%96%87%E7%AB%A0%E7%9A%84%E7%AE%80%E5%8D%95%E6%AD%A5%E9%AA%A4/" itemprop="commentCount"></span>
           Comments
         </a>
       
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/" rel="tag">hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-观霞" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/09/17/%E8%A7%82%E9%9C%9E/" class="article-date">
+  <time class="dt-published" datetime="2023-09-17T15:27:51.000Z" itemprop="datePublished">2023-09-17</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E8%AF%97%E6%AD%8C/">诗歌</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2023/09/17/%E8%A7%82%E9%9C%9E/">观霞</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p style: align=center>
+青石嶙峋山势斜，古树孑然立高崖。</br>
+欲除心尘登顶望。晚霞如潮流金沙。</br>
+注：原视频看着才有感觉————流金沙的感觉。
+</p>
+<img src="/2023/09/17/%E8%A7%82%E9%9C%9E/wx.jpg" class="" width="300" height="300">
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://lnx1usr.github.io/2023/09/17/%E8%A7%82%E9%9C%9E/" data-id="clmnnm2tc000owlmm14hdezga" data-title="观霞" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+        <a href="/2023/09/17/%E8%A7%82%E9%9C%9E/#comments" class="article-comment-link">
+          <span class="post-comments-count valine-comment-count fa fa-comment" data-xid="/2023/09/17/%E8%A7%82%E9%9C%9E/" itemprop="commentCount"></span>
+          Comments
+        </a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%B8%83%E8%A8%80%E5%BE%8B%E8%AF%97/" rel="tag">七言律诗</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%8E%9F%E5%88%9B/" rel="tag">原创</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%99%AF%E9%A2%98/" rel="tag">景题</a></li></ul>
+
     </footer>
   </div>
   
@@ -144,6 +197,10 @@
   <time class="dt-published" datetime="2023-09-16T16:19:12.000Z" itemprop="datePublished">2023-09-17</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E8%AF%97%E6%AD%8C/">诗歌</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -169,7 +226,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://lnx1usr.github.io/2023/09/17/%E9%9B%AA%E4%B8%AD%E8%A1%8C/" data-id="clmnlib5h000ionmm6a912wo6" data-title="雪中行" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://lnx1usr.github.io/2023/09/17/%E9%9B%AA%E4%B8%AD%E8%A1%8C/" data-id="clmnnm2tf000qwlmmc34k71gh" data-title="雪中行" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
         <a href="/2023/09/17/%E9%9B%AA%E4%B8%AD%E8%A1%8C/#comments" class="article-comment-link">
@@ -194,6 +251,10 @@
   <time class="dt-published" datetime="2023-09-14T14:31:30.000Z" itemprop="datePublished">2023-09-14</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E8%AF%97%E6%AD%8C/">诗歌</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -221,7 +282,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://lnx1usr.github.io/2023/09/14/%E5%B9%B3%E6%B9%96%E9%9C%9E%E5%85%89/" data-id="clmnlib570007onmmbcki3tj1" data-title="平湖霞光" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://lnx1usr.github.io/2023/09/14/%E5%B9%B3%E6%B9%96%E9%9C%9E%E5%85%89/" data-id="clmnnm2sz0008wlmm2gif3i4k" data-title="平湖霞光" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
         <a href="/2023/09/14/%E5%B9%B3%E6%B9%96%E9%9C%9E%E5%85%89/#comments" class="article-comment-link">
@@ -246,6 +307,10 @@
   <time class="dt-published" datetime="2023-09-11T16:10:27.000Z" itemprop="datePublished">2023-09-12</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E8%AF%97%E6%AD%8C/">诗歌</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -275,7 +340,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://lnx1usr.github.io/2023/09/12/%E6%95%85%E4%B9%A1%E6%99%AF%E9%A2%98%E4%B8%A4%E9%A6%96/" data-id="clmnlib580008onmm19f49p3j" data-title="故乡景题两首" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://lnx1usr.github.io/2023/09/12/%E6%95%85%E4%B9%A1%E6%99%AF%E9%A2%98%E4%B8%A4%E9%A6%96/" data-id="clmnnm2t10009wlmm51feaw0j" data-title="故乡景题两首" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
         <a href="/2023/09/12/%E6%95%85%E4%B9%A1%E6%99%AF%E9%A2%98%E4%B8%A4%E9%A6%96/#comments" class="article-comment-link">
@@ -300,6 +365,10 @@
   <time class="dt-published" datetime="2023-09-10T16:16:32.000Z" itemprop="datePublished">2023-09-11</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E8%AF%97%E6%AD%8C/">诗歌</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -325,7 +394,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://lnx1usr.github.io/2023/09/11/%E6%AE%8B%E6%9C%88%E9%9B%BE%E4%B8%AD%E5%88%AB/" data-id="clmnlib5b000bonmm49sc4deo" data-title="残月雾中别" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://lnx1usr.github.io/2023/09/11/%E6%AE%8B%E6%9C%88%E9%9B%BE%E4%B8%AD%E5%88%AB/" data-id="clmnnm2t6000dwlmmegoo0rcg" data-title="残月雾中别" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
         <a href="/2023/09/11/%E6%AE%8B%E6%9C%88%E9%9B%BE%E4%B8%AD%E5%88%AB/#comments" class="article-comment-link">
@@ -335,163 +404,6 @@
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%BA%94%E8%A8%80%E5%BE%8B%E8%AF%97/" rel="tag">五言律诗</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%8E%9F%E5%88%9B/" rel="tag">原创</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%99%AF%E9%A2%98/" rel="tag">景题</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-秋景题" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/09/08/%E7%A7%8B%E6%99%AF%E9%A2%98/" class="article-date">
-  <time class="dt-published" datetime="2023-09-08T15:34:43.000Z" itemprop="datePublished">2023-09-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/09/08/%E7%A7%8B%E6%99%AF%E9%A2%98/">秋景题</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p align=center>
-蓝天白云高，红树叶渐凋。
-</br>
-彩河微波去，游人沿岸瞧。
-</br>————疫情期间写于小镇阳光城。
-</p>
-<img src="/2023/09/08/%E7%A7%8B%E6%99%AF%E9%A2%98/qiu.jpg" class="" width="300" height="300">
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://lnx1usr.github.io/2023/09/08/%E7%A7%8B%E6%99%AF%E9%A2%98/" data-id="clmnlib5e000donmm64w89apb" data-title="秋景题" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-        <a href="/2023/09/08/%E7%A7%8B%E6%99%AF%E9%A2%98/#comments" class="article-comment-link">
-          <span class="post-comments-count valine-comment-count fa fa-comment" data-xid="/2023/09/08/%E7%A7%8B%E6%99%AF%E9%A2%98/" itemprop="commentCount"></span>
-          Comments
-        </a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%BA%94%E8%A8%80%E5%BE%8B%E8%AF%97/" rel="tag">五言律诗</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%8E%9F%E5%88%9B/" rel="tag">原创</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%99%AF%E9%A2%98/" rel="tag">景题</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-致逆行者" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/09/08/%E8%87%B4%E9%80%86%E8%A1%8C%E8%80%85/" class="article-date">
-  <time class="dt-published" datetime="2023-09-07T16:53:07.000Z" itemprop="datePublished">2023-09-08</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/09/08/%E8%87%B4%E9%80%86%E8%A1%8C%E8%80%85/">致逆行者</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p align=center>
-狂风啸天地，怒雪砸枯林。</br>
-犹有逆行者，踟躇不得行。</br>
-红尘万般苦，慧来一念空。</br>
-守得初心在，何惧雪与风。
-</p>
-<img src="/2023/09/08/%E8%87%B4%E9%80%86%E8%A1%8C%E8%80%85/nix.jpg" class="" width="300" height="300">
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://lnx1usr.github.io/2023/09/08/%E8%87%B4%E9%80%86%E8%A1%8C%E8%80%85/" data-id="clmnlib5f000fonmm3sqkcgnb" data-title="致逆行者" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-        <a href="/2023/09/08/%E8%87%B4%E9%80%86%E8%A1%8C%E8%80%85/#comments" class="article-comment-link">
-          <span class="post-comments-count valine-comment-count fa fa-comment" data-xid="/2023/09/08/%E8%87%B4%E9%80%86%E8%A1%8C%E8%80%85/" itemprop="commentCount"></span>
-          Comments
-        </a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%BA%94%E8%A8%80%E5%BE%8B%E8%AF%97/" rel="tag">五言律诗</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%8E%9F%E5%88%9B/" rel="tag">原创</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E9%9B%AA%E6%99%AF%E9%A2%98/" rel="tag">雪景题</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-晨雾" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/09/05/%E6%99%A8%E9%9B%BE/" class="article-date">
-  <time class="dt-published" datetime="2023-09-04T16:38:58.000Z" itemprop="datePublished">2023-09-05</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/09/05/%E6%99%A8%E9%9B%BE/">晨雾</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p style: align=center>
-百鸟争鸣醒清晨，潭水清静映绿林。</br>
-飘渺晨雾潭中起，化归天地隐红尘。
-————受限于github的加载问题，只能压缩图片，更不用说原视频了。</br>
-原视频晨雾飘渺，百鸟齐鸣，那种意境给人的感觉太美了，才有了这一首比较满意的题诗。
-</p>
-<img src="/2023/09/05/%E6%99%A8%E9%9B%BE/chenwufang.jpg" class="" width="300" height="300">
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://lnx1usr.github.io/2023/09/05/%E6%99%A8%E9%9B%BE/" data-id="clmnlib5a000aonmm26ufhjih" data-title="晨雾" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-        <a href="/2023/09/05/%E6%99%A8%E9%9B%BE/#comments" class="article-comment-link">
-          <span class="post-comments-count valine-comment-count fa fa-comment" data-xid="/2023/09/05/%E6%99%A8%E9%9B%BE/" itemprop="commentCount"></span>
-          Comments
-        </a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%B8%83%E8%A8%80%E5%BE%8B%E8%AF%97/" rel="tag">七言律诗</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%8E%9F%E5%88%9B/" rel="tag">原创</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%99%AF%E9%A2%98/" rel="tag">景题</a></li></ul>
 
     </footer>
   </div>
@@ -513,13 +425,10 @@
           <aside id="sidebar">
   
     
-
-  
-    
   <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
+    <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo%E7%BA%A0%E9%94%99/" rel="tag">hexo纠错</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%83%E8%A8%80%E5%BE%8B%E8%AF%97/" rel="tag">七言律诗</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%94%E8%A8%80%E5%BE%8B%E8%AF%97/" rel="tag">五言律诗</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8E%9F%E5%88%9B/" rel="tag">原创</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8E%9F%E5%88%9B%E8%AF%97%E6%AD%8C/" rel="tag">原创诗歌</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%99%AF%E9%A2%98/" rel="tag">景题</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BB%9D%E5%8F%A5/" rel="tag">绝句</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%AA%E6%99%AF%E9%A2%98/" rel="tag">雪景题</a><span class="tag-list-count">2</span></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AD%A6%E4%B9%A0hexo/">学习hexo</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%AF%97%E6%AD%8C/">诗歌</a><span class="category-list-count">8</span></li></ul>
     </div>
   </div>
 
@@ -532,7 +441,11 @@
       <ul>
         
           <li>
-            <a href="/2023/09/17/%E5%AD%A6%E4%B9%A0hexo/">学习hexo写文章</a>
+            <a href="/2023/09/17/hexo%E5%86%99%E6%96%87%E7%AB%A0%E7%9A%84%E7%AE%80%E5%8D%95%E6%AD%A5%E9%AA%A4/">hexo写文章的简单步骤</a>
+          </li>
+        
+          <li>
+            <a href="/2023/09/17/%E8%A7%82%E9%9C%9E/">观霞</a>
           </li>
         
           <li>
@@ -551,10 +464,6 @@
             <a href="/2023/09/11/%E6%AE%8B%E6%9C%88%E9%9B%BE%E4%B8%AD%E5%88%AB/">残月雾中别</a>
           </li>
         
-          <li>
-            <a href="/2023/09/08/%E7%A7%8B%E6%99%AF%E9%A2%98/">秋景题</a>
-          </li>
-        
       </ul>
     </div>
   </div>
@@ -562,9 +471,19 @@
   
     
   <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/" rel="tag">hexo</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo%E7%BA%A0%E9%94%99/" rel="tag">hexo纠错</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B8%83%E8%A8%80%E5%BE%8B%E8%AF%97/" rel="tag">七言律诗</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%BA%94%E8%A8%80%E5%BE%8B%E8%AF%97/" rel="tag">五言律诗</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8E%9F%E5%88%9B/" rel="tag">原创</a><span class="tag-list-count">7</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8E%9F%E5%88%9B%E8%AF%97%E6%AD%8C/" rel="tag">原创诗歌</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%99%AF%E9%A2%98/" rel="tag">景题</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%BB%9D%E5%8F%A5/" rel="tag">绝句</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9B%AA%E6%99%AF%E9%A2%98/" rel="tag">雪景题</a><span class="tag-list-count">2</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/09/">September 2023</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/08/">August 2023</a><span class="archive-list-count">2</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/09/">September 2023</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/08/">August 2023</a><span class="archive-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -574,7 +493,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/hexo/" style="font-size: 13.33px;">hexo</a> <a href="/tags/hexo%E7%BA%A0%E9%94%99/" style="font-size: 10px;">hexo纠错</a> <a href="/tags/%E4%B8%83%E8%A8%80%E5%BE%8B%E8%AF%97/" style="font-size: 13.33px;">七言律诗</a> <a href="/tags/%E4%BA%94%E8%A8%80%E5%BE%8B%E8%AF%97/" style="font-size: 16.67px;">五言律诗</a> <a href="/tags/%E5%8E%9F%E5%88%9B/" style="font-size: 20px;">原创</a> <a href="/tags/%E5%8E%9F%E5%88%9B%E8%AF%97%E6%AD%8C/" style="font-size: 10px;">原创诗歌</a> <a href="/tags/%E6%99%AF%E9%A2%98/" style="font-size: 16.67px;">景题</a> <a href="/tags/%E7%BB%9D%E5%8F%A5/" style="font-size: 10px;">绝句</a> <a href="/tags/%E9%9B%AA%E6%99%AF%E9%A2%98/" style="font-size: 13.33px;">雪景题</a>
+      <a href="/tags/hexo/" style="font-size: 14px;">hexo</a> <a href="/tags/hexo%E7%BA%A0%E9%94%99/" style="font-size: 10px;">hexo纠错</a> <a href="/tags/%E4%B8%83%E8%A8%80%E5%BE%8B%E8%AF%97/" style="font-size: 14px;">七言律诗</a> <a href="/tags/%E4%BA%94%E8%A8%80%E5%BE%8B%E8%AF%97/" style="font-size: 16px;">五言律诗</a> <a href="/tags/%E5%8E%9F%E5%88%9B/" style="font-size: 20px;">原创</a> <a href="/tags/%E5%8E%9F%E5%88%9B%E8%AF%97%E6%AD%8C/" style="font-size: 10px;">原创诗歌</a> <a href="/tags/%E6%99%AF%E9%A2%98/" style="font-size: 18px;">景题</a> <a href="/tags/%E7%BB%9D%E5%8F%A5/" style="font-size: 10px;">绝句</a> <a href="/tags/%E9%9B%AA%E6%99%AF%E9%A2%98/" style="font-size: 12px;">雪景题</a>
     </div>
   </div>
 
