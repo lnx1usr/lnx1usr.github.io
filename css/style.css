@@ -790,6 +790,7 @@ body {
   text-decoration: none;
   font-size: 1.5em;
   font-weight: bold;
+  text-align: center;
   color: #40759b;
   line-height: 1.1em;
   -webkit-transition: color 0.2s;
