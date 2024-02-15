@@ -6,7 +6,7 @@
   <link href="https://lnx1usr.github.io/atom.xml" rel="self"/>
   
   <link href="https://lnx1usr.github.io/"/>
-  <updated>2023-10-17T12:11:06.390Z</updated>
+  <updated>2024-02-15T13:24:27.667Z</updated>
   <id>https://lnx1usr.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>实话实说</title>
+    <link href="https://lnx1usr.github.io/2024/02/15/%E5%AE%9E%E8%AF%9D%E5%AE%9E%E8%AF%B4/"/>
+    <id>https://lnx1usr.github.io/2024/02/15/%E5%AE%9E%E8%AF%9D%E5%AE%9E%E8%AF%B4/</id>
+    <published>2024-02-15T13:14:43.000Z</published>
+    <updated>2024-02-15T13:24:27.667Z</updated>
+    
+    <content type="html"><![CDATA[<div align=center><p>真实不是诗情画意，生活岂能事事如意。<br>人生不是三言两语，困苦亦非永恒主题。</p><p>但愿我们能看清真实，超越真实。</p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div align=center&gt;
+
+&lt;p&gt;真实不是诗情画意，生活岂能事事如意。&lt;br&gt;人生不是三言两语，困苦亦非永恒主题。&lt;/p&gt;
+&lt;p&gt;但愿我们能看清真实，超越真实。&lt;/p&gt;
+&lt;/div&gt;
+
+</summary>
+      
+    
+    
+    
+    <category term="随笔" scheme="https://lnx1usr.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="生活" scheme="https://lnx1usr.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>秋景题2</title>
@@ -569,36 +599,6 @@
     <category term="七言律诗" scheme="https://lnx1usr.github.io/tags/%E4%B8%83%E8%A8%80%E5%BE%8B%E8%AF%97/"/>
     
     <category term="景题" scheme="https://lnx1usr.github.io/tags/%E6%99%AF%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>雪中行</title>
-    <link href="https://lnx1usr.github.io/2023/09/17/%E9%9B%AA%E4%B8%AD%E8%A1%8C/"/>
-    <id>https://lnx1usr.github.io/2023/09/17/%E9%9B%AA%E4%B8%AD%E8%A1%8C/</id>
-    <published>2023-09-16T16:19:12.000Z</published>
-    <updated>2023-09-25T16:28:01.688Z</updated>
-    
-    <content type="html"><![CDATA[<div align=center><p>狂风暴雪枯树朦，<br>倩影孤马行欲停。<br>前路未知依然去，<br>心之所向有天晴。</p></div><img src="/2023/09/17/%E9%9B%AA%E4%B8%AD%E8%A1%8C/xuej.png" class="" width="300" height="300">]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div align=center&gt;
-
-&lt;p&gt;狂风暴雪枯树朦，&lt;br&gt;倩影孤马行欲停。&lt;br&gt;前路未知依然去，&lt;br&gt;心之所向有天晴。&lt;/p&gt;
-&lt;/div&gt;
-&lt;img src=&quot;/2023/09/17/%E9%9B%AA%E4%B8%AD%E8%A1%8C/xuej.png&quot; c</summary>
-      
-    
-    
-    
-    <category term="诗歌" scheme="https://lnx1usr.github.io/categories/%E8%AF%97%E6%AD%8C/"/>
-    
-    
-    <category term="七言律诗" scheme="https://lnx1usr.github.io/tags/%E4%B8%83%E8%A8%80%E5%BE%8B%E8%AF%97/"/>
-    
-    <category term="雪景题" scheme="https://lnx1usr.github.io/tags/%E9%9B%AA%E6%99%AF%E9%A2%98/"/>
     
   </entry>
   
