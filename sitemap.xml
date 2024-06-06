@@ -451,4 +451,11 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://lnx1usr.github.io/categories/%E6%97%A5%E8%AE%B0-%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2024-06-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 </urlset>
