@@ -6,7 +6,7 @@
   <link href="https://lnx1usr.github.io/atom.xml" rel="self"/>
   
   <link href="https://lnx1usr.github.io/"/>
-  <updated>2024-06-06T16:18:29.202Z</updated>
+  <updated>2024-06-21T16:11:46.717Z</updated>
   <id>https://lnx1usr.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一张一弛之为道</title>
+    <link href="https://lnx1usr.github.io/2024/06/21/%E4%B8%80%E5%BC%A0%E4%B8%80%E5%BC%9B%E4%B9%8B%E4%B8%BA%E9%81%93/"/>
+    <id>https://lnx1usr.github.io/2024/06/21/%E4%B8%80%E5%BC%A0%E4%B8%80%E5%BC%9B%E4%B9%8B%E4%B8%BA%E9%81%93/</id>
+    <published>2024-06-21T15:08:33.000Z</published>
+    <updated>2024-06-21T16:11:46.717Z</updated>
+    
+    <content type="html"><![CDATA[<div align=center><p>“<strong>618终于过去了！</strong>————某苦逼京东快递员的心语”<br>为了这鸡零狗碎的生活，为了钱，我们肆意挥霍着生命————这来之不易的精力。<br>就像一根拉紧的皮筋，一直紧着。</p><p>可否想过，一直紧着的皮筋将会失去弹性，变成一根普通的绳子。<br>人也亦然。一直拼了命的劳作、挣钱，将会浪费了生命的弹性，错失了生命的精彩。<br>把自己变成了挣钱的机器————生命等同于机器，多么可悲！</p><p>古语就有“一张一弛之为道”之说，我们都明白这个道理。<br>可是明白只是明白，有多少人（包括我）的生活可以做到真正的一张一弛？！<br>进了社会这个历练场，有多少人和我一样，只是和机器一样的劳作，还活着么？<br>有时细想，我早已经死了，现在的我，只是个赚钱的机器而已。</p><p>过不几年，这个机器坏了，然后用赚的钱修理机器。小毛病还好，可能修修还能将就运转，<br>如果是大毛病，可能赚的钱不够修理，只能被大地回收。</p><p>这就是生命的流程————大部分生命的流程。<br>残酷吗？可悲吗？事实就是这样。</p><p>陌生人，祝福你：<br>    <strong>祝愿你的生命像花一样绽放，</strong><br>    <strong>祝愿你生命的流程能像彩虹一样美丽。</strong><br>    <strong>祝愿你活出圆满的一生。</strong></p></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div align=center&gt;
+
+&lt;p&gt;“&lt;strong&gt;618终于过去了！&lt;/strong&gt;————某苦逼京东快递员的心语”&lt;br&gt;为了这鸡零狗碎的生活，为了钱，我们肆意挥霍着生命————这来之不易的精力。&lt;br&gt;就像一根拉紧的皮筋，一直紧着。&lt;/p&gt;
+&lt;p&gt;可否想过，一</summary>
+      
+    
+    
+    
+    <category term="随笔" scheme="https://lnx1usr.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="https://lnx1usr.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="日记" scheme="https://lnx1usr.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>忙</title>
@@ -582,30 +611,6 @@
     <category term="景题" scheme="https://lnx1usr.github.io/tags/%E6%99%AF%E9%A2%98/"/>
     
     <category term="五言律诗" scheme="https://lnx1usr.github.io/tags/%E4%BA%94%E8%A8%80%E5%BE%8B%E8%AF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo写文章的简单步骤</title>
-    <link href="https://lnx1usr.github.io/2023/09/17/hexo%E5%86%99%E6%96%87%E7%AB%A0%E7%9A%84%E7%AE%80%E5%8D%95%E6%AD%A5%E9%AA%A4/"/>
-    <id>https://lnx1usr.github.io/2023/09/17/hexo%E5%86%99%E6%96%87%E7%AB%A0%E7%9A%84%E7%AE%80%E5%8D%95%E6%AD%A5%E9%AA%A4/</id>
-    <published>2023-09-17T15:54:36.000Z</published>
-    <updated>2023-09-19T15:50:06.564Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ cd 本地站点目录</span><br><span class="line">$ hexo new 新建文章</span><br><span class="line">$ hexo generate 生成文章文件.md</span><br><span class="line">$ hexo server 本地预览生成的文章样式</span><br><span class="line">$ hexo deploy 部署到远程github</span><br></pre></td></tr></table></figure><p>命令可以用简写： <br> hexo new &#x3D;&#x3D; hexo n<br>        hexo generate &#x3D;&#x3D; hexo g<br>        hexo server &#x3D;&#x3D; hexo s<br>        hexo deploy &#x3D;&#x3D; hexo d</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
-      
-    
-    
-    
-    <category term="学习hexo" scheme="https://lnx1usr.github.io/categories/%E5%AD%A6%E4%B9%A0hexo/"/>
-    
-    
-    <category term="hexo" scheme="https://lnx1usr.github.io/tags/hexo/"/>
     
   </entry>
   
