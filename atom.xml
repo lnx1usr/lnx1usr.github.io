@@ -6,7 +6,7 @@
   <link href="https://lnx1usr.top/atom.xml" rel="self"/>
   
   <link href="https://lnx1usr.top/"/>
-  <updated>2025-03-08T15:20:06.940Z</updated>
+  <updated>2025-03-10T15:31:08.153Z</updated>
   <id>https://lnx1usr.top/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>简单说hexo静态博客的迁移</title>
+    <link href="https://lnx1usr.top/2025/03/10/%E7%AE%80%E5%8D%95%E8%AF%B4hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%81%E7%A7%BB/"/>
+    <id>https://lnx1usr.top/2025/03/10/%E7%AE%80%E5%8D%95%E8%AF%B4hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%81%E7%A7%BB/</id>
+    <published>2025-03-10T15:31:08.000Z</published>
+    <updated>2025-03-10T15:31:08.153Z</updated>
+    
+    <content type="html"><![CDATA[<div align=center></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div align=center&gt;
+
+
+
+&lt;/div&gt;
+
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>值还是不值</title>
@@ -587,37 +613,6 @@ Test only!
     <category term="景题" scheme="https://lnx1usr.top/tags/%E6%99%AF%E9%A2%98/"/>
     
     <category term="四言诗" scheme="https://lnx1usr.top/tags/%E5%9B%9B%E8%A8%80%E8%AF%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>美景题</title>
-    <link href="https://lnx1usr.top/2023/09/20/%E7%BE%8E%E6%99%AF%E9%A2%98/"/>
-    <id>https://lnx1usr.top/2023/09/20/%E7%BE%8E%E6%99%AF%E9%A2%98/</id>
-    <published>2023-09-20T14:39:06.000Z</published>
-    <updated>2023-09-25T16:24:36.851Z</updated>
-    
-    <content type="html"><![CDATA[<div align=center><p>残月初升挂天涯，<br>紫气蒸腾隐山峡。<br>群鹭轻舟同飘去，<br>岸边游人独牵马。</p><p><em>————这是期间所作比较满意的一首诗。</em></p></div><img src="/2023/09/20/%E7%BE%8E%E6%99%AF%E9%A2%98/mjt.jpg" class="" width="300" height="300">]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div align=center&gt;
-
-&lt;p&gt;残月初升挂天涯，&lt;br&gt;紫气蒸腾隐山峡。&lt;br&gt;群鹭轻舟同飘去，&lt;br&gt;岸边游人独牵马。&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;————这是期间所作比较满意的一首诗。&lt;/em&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;img src=&quot;/2023/09/20/%E7</summary>
-      
-    
-    
-    
-    <category term="诗歌" scheme="https://lnx1usr.top/categories/%E8%AF%97%E6%AD%8C/"/>
-    
-    
-    <category term="七言律诗" scheme="https://lnx1usr.top/tags/%E4%B8%83%E8%A8%80%E5%BE%8B%E8%AF%97/"/>
-    
-    <category term="景题" scheme="https://lnx1usr.top/tags/%E6%99%AF%E9%A2%98/"/>
     
   </entry>
   
