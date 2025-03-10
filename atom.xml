@@ -6,7 +6,7 @@
   <link href="https://lnx1usr.top/atom.xml" rel="self"/>
   
   <link href="https://lnx1usr.top/"/>
-  <updated>2025-03-10T15:31:08.153Z</updated>
+  <updated>2025-03-10T15:44:20.613Z</updated>
   <id>https://lnx1usr.top/</id>
   
   <author>
@@ -21,24 +21,26 @@
     <link href="https://lnx1usr.top/2025/03/10/%E7%AE%80%E5%8D%95%E8%AF%B4hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%81%E7%A7%BB/"/>
     <id>https://lnx1usr.top/2025/03/10/%E7%AE%80%E5%8D%95%E8%AF%B4hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%BF%81%E7%A7%BB/</id>
     <published>2025-03-10T15:31:08.000Z</published>
-    <updated>2025-03-10T15:31:08.153Z</updated>
+    <updated>2025-03-10T15:44:20.613Z</updated>
     
-    <content type="html"><![CDATA[<div align=center></div>]]></content>
+    <content type="html"><![CDATA[<div align=left><p><strong>用hexo写的静态博客迁移真是方便</strong></p><p>前几天在一块移动硬盘上新装了ubuntu24.04,试试把以前的博客移到新系统，没想到真是很方便的。</p><p>主要还是搭建hexo环境,用npm的时候总出现权限问题，干啥都得sudo,搜了一下原因，改变了npm安装路径,一切正常了。顺利搭建hexo运行环境。<br>接着把以前的博客文件夹复制了过来，再接着hexo n test，hexo g，hexo d,卡到这里了，需要认证身份，输入git账户密码，继续hexo d,成功上传。</p><p>总结一下：1.搭建hexo运行环境<br>2.博客文件夹复制过来<br>3.输入git认证<br>4.继续开始想写啥写啥<br><em>——是不是非常方便和简单?以后打包你的文件夹就可以了，博客就是文件夹，文件夹就是博客。</em></p></div>]]></content>
     
     
       
       
-    <summary type="html">&lt;div align=center&gt;
+    <summary type="html">&lt;div align=left&gt;
 
-
-
-&lt;/div&gt;
-
-</summary>
+&lt;p&gt;&lt;strong&gt;用hexo写的静态博客迁移真是方便&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;前几天在一块移动硬盘上新装了ubuntu24.04,试试把以前的博客移到新系统，没想到真是很方便的。&lt;/p&gt;
+&lt;p&gt;主要还是搭建hexo环境,用npm的时</summary>
       
     
     
     
+    <category term="学习hexo" scheme="https://lnx1usr.top/categories/%E5%AD%A6%E4%B9%A0hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://lnx1usr.top/tags/hexo/"/>
     
   </entry>
   
