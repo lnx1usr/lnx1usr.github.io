@@ -132,21 +132,15 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
         <p>apt-get update和apt update的区别</p>
-<p>   apt是apt-get的替代工具，提供了更友好的命令行界面和更强大的功能‌1。</p>
-<pre><code>两者在功能上是相同的，都用于更新软件包索引以获取最新的软件包信息。在较新的Ubuntu系统中，可以使用apt update来执行与apt-get update相同的操作，即更新软件包索引‌12。
-‌apt update‌在执行时会显示进度条和详细的更新信息，并且会自动进行一些额外的操作，如自动清理过期的软件包索引文件，因此更加现代化和用户友好，推荐在Ubuntu 16.04及以上版本中使用‌12。
-‌apt-get update‌则更加传统，适用于旧版本的Ubuntu系统，需要手动通过apt-get clean或apt-get autoclean清理缓存‌12。
+<p>   apt是apt-get的替代工具，提供了更友好的命令行界面和更强大的功能。</p>
+<pre><code>两者在功能上是相同的，都用于更新软件包索引以获取最新的软件包信息。在较新的Ubuntu系统中，可以使用apt update来执行与apt-get update相同的操作，即更新软件包索引。
+apt update在执行时会显示进度条和详细的更新信息，并且会自动进行一些额外的操作，如自动清理过期的软件包索引文件，因此更加现代化和用户友好，推荐在Ubuntu 16.04及以上版本中使用。
+apt-get update则更加传统，适用于旧版本的Ubuntu系统，需要手动通过apt-get clean或apt-get autoclean清理缓存。
 </code></pre>
-<p>   ‌apt update‌从Ubuntu 16.04开始被推荐使用，整合了apt-get和apt-cache的常用功能‌12。</p>
+<p>   apt update从Ubuntu 16.04开始被推荐使用，整合了apt-get和apt-cache的常用功能。</p>
 <p>   结论：用apt就ok!</p>
 <p>附：apt-get基本用法</p>
-<pre><code>‌安装软件包‌：sudo apt-get install package_name
-‌卸载软件包‌：sudo apt-get remove package_name（保留配置文件）或 sudo apt-get purge package_name（删除配置文件）
-‌更新软件包列表‌：sudo apt-get update
-‌升级所有已安装的软件包‌：sudo apt-get upgrade
-‌自动移除不再需要的软件包‌：sudo apt-get autoremove
-‌清理下载的包文件‌：sudo apt-get autoclean 或 sudo apt-get clean
-</code></pre>
+<p>   安装软件包：sudo apt-get install package_name<br>   卸载软件包：sudo apt-get remove package_name（保留配置文件）或 sudo apt-get purge package_name（删除配置文件）<br>   更新软件包列表：sudo apt-get update<br>    升级所有已安装的软件包：sudo apt-get upgrade<br>    自动移除不再需要的软件包：sudo apt-get autoremove<br>    清理下载的包文件：sudo apt-get autoclean 或 sudo apt-get clean</p>
 <p>常用选项</p>
 <pre><code>-y：自动回答所有提示为“yes”
 -q：不显示进度条
@@ -155,7 +149,7 @@
 -f：尝试修复依赖问题
 </code></pre>
 <p>历史背景和替代工具</p>
-<p>apt-get是APT（Advanced Packaging Tool）的一部分，APT是一个用于管理Debian及其衍生发行版软件包的工具集。随着Ubuntu 16.04的发布，一个新的命令apt被引入，旨在简化apt-get的使用，并包含其最常用的功能选项。尽管如此，apt-get仍然广泛使用，特别是在需要处理更复杂依赖关系时‌3。</p>
+<p>apt-get是APT（Advanced Packaging Tool）的一部分，APT是一个用于管理Debian及其衍生发行版软件包的工具集。随着Ubuntu 16.04的发布，一个新的命令apt被引入，旨在简化apt-get的使用，并包含其最常用的功能选项。尽管如此，apt-get仍然广泛使用，特别是在需要处理更复杂依赖关系时。</p>
 
         
         
