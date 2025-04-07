@@ -42,6 +42,7 @@ https://lnx1usr.top/2023/08/31/hexo%E6%8F%92%E5%9B%BE%E8%AF%AD%E6%B3%95/
 https://lnx1usr.top/2023/08/31/hexo-deploy%E6%9F%90%E9%94%99%E8%AF%AF%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/
 https://lnx1usr.top/tags/index.html
 https://lnx1usr.top/
+https://lnx1usr.top/tags/linux%E5%AD%A6%E4%B9%A0/
 https://lnx1usr.top/tags/hexo/
 https://lnx1usr.top/tags/hexo%E7%BA%A0%E9%94%99/
 https://lnx1usr.top/tags/markdown%E5%AD%A6%E4%B9%A0/
@@ -55,16 +56,15 @@ https://lnx1usr.top/tags/%E4%BA%94%E8%A8%80%E5%BE%8B%E8%AF%97/
 https://lnx1usr.top/tags/%E5%BF%83%E7%81%B5/
 https://lnx1usr.top/tags/%E4%B8%83%E8%A8%80%E8%AF%97/
 https://lnx1usr.top/tags/%E7%BB%9D%E5%8F%A5/
+https://lnx1usr.top/tags/test/
 https://lnx1usr.top/tags/%E4%BA%94%E8%A8%80%E8%AF%97/
 https://lnx1usr.top/tags/%E9%9B%AA%E6%99%AF%E9%A2%98/
+https://lnx1usr.top/tags/%E6%9D%82%E8%B0%88/
 https://lnx1usr.top/tags/%E5%86%99%E5%AE%9E/
 https://lnx1usr.top/tags/%E8%87%AA%E4%BC%A0/
-https://lnx1usr.top/tags/%E6%9D%82%E8%B0%88/
-https://lnx1usr.top/tags/test/
-https://lnx1usr.top/tags/linux%E5%AD%A6%E4%B9%A0/
+https://lnx1usr.top/categories/ubuntu/
 https://lnx1usr.top/categories/%E5%AD%A6%E4%B9%A0hexo/
 https://lnx1usr.top/categories/%E9%9A%8F%E7%AC%94/
 https://lnx1usr.top/categories/%E8%AF%97%E6%AD%8C/
 https://lnx1usr.top/categories/%E6%8A%84%E5%BD%95/
 https://lnx1usr.top/categories/test/
-https://lnx1usr.top/categories/ubuntu/
